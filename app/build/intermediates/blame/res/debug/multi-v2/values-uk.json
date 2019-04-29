@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml",
+            "map": [
+                {
+                    "source": "/home/pappletech/.gradle/caches/transforms-2/files-2.1/56e700574212c3a71e1fdcde544db0a6/res/values-uk/values-uk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,142 @@
+body {padding:0;margin:0 auto;font:150% sans-serif;}
+
+h1{padding:1% 2%;margin: 0 -2% 2% -2%;font:bold 150% sans-serif;color:#fff;}
+
+h2{font:bold 125% sans-serif;margin-bottom:2%;}
+h3{font:bold 110% sans-serif;margin-bottom:2%;}
+h4{font:bold 100% sans-serif;margin-bottom:2%;}
+h5{font:bold 100% sans-serif;margin-bottom:2%;}
+
+.dCenter{text-align:center;}
+.dLeft{text-align:left;}
+.dRight{text-align:right;}
+
+a:link, a:visited, a:hover, a:active{color:blue;}
+
+p{margin:0 0 2% 0;}
+img{border:none;}
+
+/* Bullets and Numbers styling */
+
+/*Imporant setting of p for bullets and numbers styling */
+p{margin:0 0 2% 0;}
+
+ul{margin:0;padding:0;margin-left:20px;padding-bottom:2%;}
+ul li{padding-left:20px;padding-top:2%;}
+ul li:first-child{padding-top:0;}
+ul li ul{margin:0;padding:0;margin-left:20px;padding-top:0;}
+ul li ul li:first-child{padding-top:2%;}
+
+
+ol{margin-left:20px;margin-top:0;margin-bottom:0;padding-bottom:2%;}
+ol li{padding-left:10px;padding-top:2%}
+ol li:first-child{padding-top:0;}
+ol li ol{padding-bottom:0;}
+ol li ol li:first-child{padding-top:2%;}
+
+
+ul li ol {padding-bottom:0;}
+ul li ol li:first-child{padding-top:2%;}
+
+ol li ul{padding-bottom:0;}
+ol li ul li:first-child{padding-top:2%;}
+
+sub {vertical-align:baseline;position:relative;bottom:-0.3em;}
+sup{vertical-align:baseline;position:relative;bottom:0.3em;}
+
+.level1{padding-left:2%;}
+.level2{padding-left:4%;}
+.level3{padding-left:6%;}
+
+table.withBorder{border-collapse:collapse;}
+table.withBorder td{border:1px solid black;}
+
+/* bA=Border All, bT=Border Top */
+td.bA, th.bA, td.ba, th.ba{border:1px solid #000;}
+td.bT, th.bT, td.bt, th.bt{border-top:1px solid #000;}
+td.bR, th.bR, td.br, th.br{border-right:1px solid #000;}
+td.bB, th.bB, td.bb, th.bb{border-bottom:1px solid #000;}
+td.bL, th.bL, td.bl, th.bl{border-left:1px solid #000;}
+
+/* btb = Border Top Black  btr = Border Top Red */
+.btb {border-top:1px solid #000;}
+.bbb {border-bottom:1px solid #000;}
+.btr {border-top:1px solid #955281;}
+.bbr {border-bottom:1px solid #955281;}
+
+
+/* Equal division of table columns. Same but separate code for th and td tags */
+table th.Col1By2,table th.Col2By2{width:48%;}/* (100% - 4% (2% each column))/2  */
+table th.Col1By3,table th.Col2By3,table th.Col3By3{width:31.33%;}/* 100% - 6% / 3 */
+table th.Col1By4,table th.Col2By4,table th.Col3By4,table th.Col4By4{width:23%;} /* 100% - 8% / 4 */
+table th.Col1By5,table th.Col2By5,table th.Col3By5,table th.Col4By5,table th.Col5By5{width:18%;} /* 100% - 10% / 5 */
+table th.Col1By6,table th.Col2By6,table th.Col3By6,table th.Col4By6,table th.Col5By6,table th.Col6By6{width:14.66%;}
+table th.Col1By7,table th.Col2By7,table th.Col3By7,table th.Col4By7,table th.Col5By7,table th.Col6By7,table th.Col7By7{width:12.28%;}
+table th.Col1By8,table th.Col2By8,table th.Col3By8,table th.Col4By8,table th.Col5By8,table th.Col6By8,table th.Col7By8,table th.Col8By8{width:10.5%;}
+table th.Col1By9,table th.Col2By9,table th.Col3By9,table th.Col4By9,table th.Col5By9,table th.Col6By9,table th.Col7By9,table th.Col8By9,table th.Col9By9{width:9.11%;}
+
+table td.Col1By2,table td.Col2By2{width:48%;}/* (100% - 4% (2% each column))/2  */
+table td.Col1By3,table td.Col2By3,table td.Col3By3{width:31.33%;}/* 100% - 6% / 3 */
+table td.Col1By4,table td.Col2By4,table td.Col3By4,table td.Col4By4{width:23%;} /* 100% - 8% / 4 */
+table td.Col1By5,table td.Col2By5,table td.Col3By5,table td.Col4By5,table td.Col5By5{width:18%;} /* 100% - 10% / 5 */
+table td.Col1By6,table td.Col2By6,table td.Col3By6,table td.Col4By6,table td.Col5By6,table td.Col6By6{width:14.66%;}
+table td.Col1By7,table td.Col2By7,table td.Col3By7,table td.Col4By7,table td.Col5By7,table td.Col6By7,table td.Col7By7{width:12.28%;}
+table td.Col1By8,table td.Col2By8,table td.Col3By8,table td.Col4By8,table td.Col5By8,table td.Col6By8,table td.Col7By8,table td.Col8By8{width:10.5%;}
+table td.Col1By9,table td.Col2By9,table td.Col3By9,table td.Col4By9,table td.Col5By9,table td.Col6By9,table td.Col7By9,table td.Col8By9,table td.Col9By9{width:9.11%;}
+
+/* Example of Custom Fonts */
+@font-face{
+	font-family:"FontnameBold";
+	src:url("Fontname-Bold.ttf");
+}
+
+
+
+/* ******************** Overridden styles ********************* */
+
+body{
+	background-color:#baddf1;
+	color:#0d447f;
+}
+
+div.Container1{
+	padding-left:5%;
+}
+
+h1,h2{
+text-shadow: #ededed 3px 3px 1px;
+text-shadow: 0pt 1px 1pt #ededed;
+}
+
+h1{
+	font-family:Verdana,sans-serif;
+	width:100%;
+	padding:2% 0 2% 0;
+	margin:0;
+	text-align:center;
+	clear:both;
+	background-color:#fae112;
+	color:#000;
+}
+
+h2.dFirstH2{
+	margin-top:0;
+}
+
+h2{
+	background-color:#54cfcc;
+	color:#000;
+	font-size:110%;
+	padding:2% 0 2% 5%;
+	margin:7% 0 2% -5%;
+	
+}
+
+p{padding:0 5% 0 0;}
+
+p.dXtraGap{margin:0;padding:0;}
+/* Example of media query */
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+    h1{font:bold 300% sans-serif;}
+}

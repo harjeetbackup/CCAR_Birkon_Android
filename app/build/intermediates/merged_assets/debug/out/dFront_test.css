@@ -1,0 +1,15 @@
+.center{
+	width: 100%;
+	height: 85%;
+	display: table;
+	
+}
+
+.center span{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+.center span img{	
+	display: block;
+}
