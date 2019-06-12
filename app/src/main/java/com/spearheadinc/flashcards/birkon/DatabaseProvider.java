@@ -40,23 +40,7 @@ public class DatabaseProvider
         try 
         {
         	myFCDbHelper.createDataBase();
-//        	myFCDbHelper.openDataBase();
-			// String[] str1 = null;
-			// String tablename1 = "";
-			// for( int i = 0; i < listFC.size(); i ++)
-			// {
-			// String[] s= listFC.get(i);
-			// tablename1 = s[0];
-			// int k = 0;
-			// // int l = s.length ;
-			// str1 = new String[s.length - 1];
-			// for(int j = 0; j < s.length - 1; j++)
-			// {
-			// str1[j] = s[++k];
-			// }
-			// myFCDbHelper.selectCardStatus(tablename1, str1) ;
-//			// }
-//        	myFCDbHelper.close();
+
         } 
         catch(IOException ioe)
         {

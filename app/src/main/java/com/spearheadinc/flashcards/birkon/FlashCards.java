@@ -20,7 +20,7 @@ import android.widget.RelativeLayout;
 public class FlashCards extends Activity 
 {
 	private static FlashCards screen;
-	FCDBHelper mFCDbHelper;
+	FCDBHelper mFCDbHelper = new FCDBHelper(this);
 	private boolean tagValue;
 	
 

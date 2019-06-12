@@ -199,7 +199,7 @@ public class DeckView extends Activity {
     	arrayDeckIcon[0] = R.drawable.section_01;
     	arrayDeckIcon[8] = R.drawable.section_02;
     	arrayDeckIcon[12] = R.drawable.section_03;
-    	arrayDeckIcon[16] = R.drawable.section_04;    	
+    	arrayDeckIcon[16] = R.drawable.section_04;
     	 mFCDbHelper.close();
         SharedPreferences myPrefs = null;
 
@@ -212,7 +212,7 @@ public class DeckView extends Activity {
         cursorDeck.moveToFirst();
         for (int i = 0; i < cursorDeck.getCount(); i++)
         {
-     
+
 //        for (int i = 0; i < totalDeckInfo.size(); i++)
 //        {
 //    		String strArr[] = totalDeckInfo.get(i);
@@ -242,15 +242,15 @@ public class DeckView extends Activity {
 		    System.out.println("DOCstrCardPrefsValue  =  " + strCardPrefsValue);
 	        cursorDeck.moveToNext();
 		}
-        myPrefs =  DeckView.this.getSharedPreferences("StrAllCardPrefs", MODE_WORLD_READABLE);
+        myPrefs =  DeckView.this.getSharedPreferences("StrAllCardPrefs", MODE_PRIVATE);
         String strAllCard = myPrefs.getString("STRALLCARD", "0.00%");
         profvalueAllCard.setText(strAllCard);
         
-        myPrefs =  DeckView.this.getSharedPreferences("StrBookMarkPrefs", MODE_WORLD_READABLE);
+        myPrefs =  DeckView.this.getSharedPreferences("StrBookMarkPrefs", MODE_PRIVATE);
         String strBookMark = myPrefs.getString("STRBOOKMARK", "0.00%");
     	profvalueBookMark.setText(strBookMark);
         
-        myPrefs =  DeckView.this.getSharedPreferences("TotalbookMarkedProfPrefs", MODE_WORLD_READABLE);
+        myPrefs =  DeckView.this.getSharedPreferences("TotalbookMarkedProfPrefs", MODE_PRIVATE);
         int bookMarkProfcardStatus = myPrefs.getInt("BOOKMARKEDCARDS", 0);
         totNumbOfBookMarkCard.setText(bookMarkProfcardStatus + " cards");
 
@@ -269,7 +269,7 @@ public class DeckView extends Activity {
     		mFCDbHelper.openDataBase();
             int totalCards = mFCDbHelper.getDeksTotalNumOfCards(i + "");
             mFCDbHelper.close();
-            myPrefs =  DeckView.this.getSharedPreferences(listDeckPreferenceName.get(i), MODE_WORLD_READABLE);
+            myPrefs =  DeckView.this.getSharedPreferences(listDeckPreferenceName.get(i), MODE_PRIVATE);
             String prefVal = myPrefs.getString(listDeckPreferenceValue.get(i), "0.00%");
 
 //          LinearLayout detailRow =  CreateRowView(totalCards, strArr[1], arrayDeckIcon[i], strArr[3], prefVal, total, i);
@@ -622,7 +622,7 @@ public class DeckView extends Activity {
 		}
 		
 		tv.setText(value);
-		SharedPreferences myPrefs = DeckView.this.getSharedPreferences(sharedPrefName, MODE_WORLD_READABLE);
+		SharedPreferences myPrefs = DeckView.this.getSharedPreferences(sharedPrefName, MODE_PRIVATE);
 	    SharedPreferences.Editor prefsEditor = myPrefs.edit();
 	    prefsEditor.putString(sharedPrefParam, value);		            
 	    prefsEditor.commit();
@@ -632,11 +632,11 @@ public class DeckView extends Activity {
 	{
     	profvalueBookMark.setText("0.00%");
     	totNumbOfBookMarkCard.setText(0 + " cards");
-		SharedPreferences myPrefs = DeckView.this.getSharedPreferences("StrBookMarkPrefs", MODE_WORLD_READABLE);
+		SharedPreferences myPrefs = DeckView.this.getSharedPreferences("StrBookMarkPrefs", MODE_PRIVATE);
 	    SharedPreferences.Editor prefsEditor = myPrefs.edit();
 	    prefsEditor.putString ("STRBOOKMARK", "0.00%");		            
 	    prefsEditor.commit();
-	    myPrefs = DeckView.this.getSharedPreferences("TotalbookMarkedProfPrefs", MODE_WORLD_READABLE);
+	    myPrefs = DeckView.this.getSharedPreferences("TotalbookMarkedProfPrefs", MODE_PRIVATE);
 	    prefsEditor = myPrefs.edit();
 	    prefsEditor.putInt("BOOKMARKEDCARDS", 0);		            
 	    prefsEditor.commit();

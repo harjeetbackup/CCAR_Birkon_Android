@@ -1,4 +1,4 @@
-#Mon Apr 29 12:30:13 IST 2019
-base.0=/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/transforms/dexMerger/debug/4
+#Wed Jun 12 14:59:15 IST 2019
+base.0=/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/transforms/dexMerger/debug/4
 path.0=classes.dex
 renamed.0=classes.dex

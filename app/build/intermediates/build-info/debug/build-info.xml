@@ -1,104 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
+    abi="x86"
     api-level="23"
-    build-mode="FULL"
-    density="xhdpi"
+    build-mode="COLD"
+    density="xxhdpi"
     format="10"
-    plugin-version="3.4.0"
-    timestamp="1556521209421"
-    token="4399985445461704231"
-    verifier="FULL_BUILD_REQUESTED" >
+    ir-eligibility="COMPATIBLE"
+    plugin-version="3.4.1"
+    timestamp="1560332807250"
+    token="-2849599027186514018"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="613" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="175" />
+        duration="18" />
     <task
         name="verifier"
-        duration="0" />
+        duration="6" />
 
     <artifact
-        location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
     <artifact
-        location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1556521209421"
+        timestamp="1560332140966"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1560332807250"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            location="/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 

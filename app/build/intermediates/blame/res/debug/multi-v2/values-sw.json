@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "outputFile": "/Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
             "map": [
                 {
-                    "source": "/home/pappletech/.gradle/caches/transforms-2/files-2.1/56e700574212c3a71e1fdcde544db0a6/res/values-sw/values-sw.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-2/files-2.1/2c855bb54615b3c43ecec7c874d7a636/res/values-sw/values-sw.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

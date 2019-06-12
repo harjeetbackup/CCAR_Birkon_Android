@@ -36,17 +36,17 @@ public class FCDBHelper extends SQLiteOpenHelper
      */
     public FCDBHelper(Context context)
     {
-    	super(context, DB_NAME, null, 1);
+    	super(context, DB_NAME, null, 2);
         this.myContext = context;
     }	
- 
+
   /**
      * Creates a empty database on the system and rewrites it with your own database.
      * */
 //    public void createDataBase() throws IOException{
-// 
+//
 //    	boolean dbExist = checkDataBase();
-// 
+//
 //    	if(dbExist)
 //    	{
 //    		//do nothing - database already exist
@@ -56,7 +56,7 @@ public class FCDBHelper extends SQLiteOpenHelper
 //    		//By calling this method an empty database will be created into the default system path
 //               //of your application so we are gonna be able to overwrite that database with our database.
 //        	this.getReadableDatabase();
-//        	try 
+//        	try
 //        	{
 //    			copyDataBase();
 //    		} catch (IOException e) {
@@ -73,18 +73,18 @@ public class FCDBHelper extends SQLiteOpenHelper
     {
     	return isRandomized;
     }
-    
-    public List<String> selectCardStatus(String table, String[] strArr) 
+
+    public List<String> selectCardStatus(String table, String[] strArr)
     {
        List<String> list = new ArrayList<String>();
 //       this.sqlDB = openHelper.getWritableDatabase();
-       
-       Cursor cursor = myDataBase.query(true, table, strArr, 
-    		   null, null, null, null, null, null); 
+
+       Cursor cursor = myDataBase.query(true, table, strArr,
+    		   null, null, null, null, null, null);
        if (cursor.moveToFirst())
        {
-     	  do 
-     	  {	
+     	  do
+     	  {
      		  for(int i = 0; i < strArr.length; i ++)
      		  {
 	     		  String str = cursor.getString(i);
@@ -92,7 +92,7 @@ public class FCDBHelper extends SQLiteOpenHelper
      		  }
 //     		  String str1 = cursor.getString(1);
 //    		  list.add(str1);
-     	  } 
+     	  }
      	  while (cursor.moveToNext());
        }
        if (cursor != null && !cursor.isClosed())
@@ -105,7 +105,7 @@ public class FCDBHelper extends SQLiteOpenHelper
 	   }
        return list;
     }
-    
+
     
     
     /** 
@@ -229,11 +229,13 @@ public class FCDBHelper extends SQLiteOpenHelper
 	@Override
 	public void onCreate(SQLiteDatabase db) {
 	}
- 
+
 	@Override
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+
+
 	}
- 
+
         // Add your public helper methods to access and get content from the database.
        // You could return cursors by doing "return myDataBase.query(....)" so it'd be easy
        // to you to create adapters for your views.
@@ -1371,7 +1373,7 @@ public class FCDBHelper extends SQLiteOpenHelper
 	}
 
 	public String getCardDeckid(String pk_FlashCardId) {
-		
+
 		String sql = "select distinct fk_FlashCardDeckId from m_FlashCard where pk_FlashCardId = " + pk_FlashCardId;
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		String strArr = "";
@@ -1426,14 +1428,14 @@ public class FCDBHelper extends SQLiteOpenHelper
 	public static String AUDIOFILE = "audioFile";
 	public static String RECORDINGDATE = "recordingDate";
 
-	public Cursor getDeksInfoCursor() 
+	public Cursor getDeksInfoCursor()
 	{
 		String sql = "select distinct * from " + DATABASE_TABLE_M_FLASHCARDDECKS + " order by pk_FlashCardDeckId ASC";// where pk_FlashCardId = " + pk_FlashCardId;
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}
 
-	public Cursor getm_FlashCardAllCursor() 
+	public Cursor getm_FlashCardAllCursor()
 	{
 		String sql;
 		if(getRandomized())
@@ -1448,7 +1450,7 @@ public class FCDBHelper extends SQLiteOpenHelper
 		return cursor;
 	}
 
-	public Cursor getm_FlashCardInfoCursor(String fk_FlashCardDeckId) 
+	public Cursor getm_FlashCardInfoCursor(String fk_FlashCardDeckId)
 	{
 		String sql;
 		if(getRandomized())
@@ -1459,11 +1461,11 @@ public class FCDBHelper extends SQLiteOpenHelper
 		{
 			sql = "select distinct * from " + DATABASE_TABLE_M_FLASHCARD + " where fk_FlashCardDeckId = " + fk_FlashCardDeckId + " order by pk_FlashCardId ASC";
 		}
-		
+
 		Cursor cursor = myDataBase.rawQuery(sql, null);
 		return cursor;
 	}
-	
+
 
 	   
 	   public Cursor getBookMarkedCardCursor() 
@@ -1497,5 +1499,7 @@ public class FCDBHelper extends SQLiteOpenHelper
 		      int i = myDataBase.delete("m_FlashCardVoiceNotes", "fk_FlashCardId= ? AND audioTitle = ? AND audioFile = ?", new String[]{strCardId, audTitle, audPath});
 		      System.out.println("deleteSingleVoiceNotesForcardID"+i);
 		}
+
+
 
 }

@@ -1,314 +1,322 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:2:1-180:12
-INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:2:1-180:12
-INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:2:1-180:12
-INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:2:1-180:12
-MERGED from [com.android.support:support-v4:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/4b20911caae0f12fbac77042bdb99bca/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/02e57b590b70d59c19f081214f692abe/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/201d597a8f66c957dab64ec9b8e83e80/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/b9675921d84e5ab496a91e07f2c5d85e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/cf377b90bba41c9c58ddd5f524c0b2c4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/d43e7da48f21ae25f70af1dd6804f1ee/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/647ed9be68a8be69a0a4b7336e5721a5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/3e23abbc6294bf7f485884ae7d9251f6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/9a8141dba336e8cb67df68d6525d3ad7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/6d5532e654718971b6f582952e0809b1/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/1e38c5411c23191c678a0758b5329f7c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/3c9a3d062b2328103a5fc9cf1e12b1fa/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/edebfd6d2404b559707a0b82c4563903/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/56e700574212c3a71e1fdcde544db0a6/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/6149bdb3763b124abd65b04025a8f085/AndroidManifest.xml:17:1-25:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/797682c84b65b7ad889260afb2d0dead/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/905db20f80ed97980a0e1dbd17f46107/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/0d0d0df6509c2ae359f370a3fde6b65f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/db0624ab47ae472bb0ae95f3a4a5f5a9/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/cafea1e55a3d4dfbd3444989e2479dfb/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/850db45493587560006c60d12f0aa8d3/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/283ca7b2e85fff25ab51715d766963ba/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/769b408295a583d8474fddd0b4a3b866/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/da68c76da709fa4a4d16f3cab699780c/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/163ead4aae993711e59df88a7cbff27f/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:2:1-180:12
-INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:2:1-180:12
-INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:2:1-180:12
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:2:1-182:12
+INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:2:1-182:12
+INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:2:1-182:12
+INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:2:1-182:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/751bdb9b622509d9c18a9806fe5229f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/5a7c4f1f75e030974adffe3d02dede32/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18ebdfb3c2482f9a2d375650e67ce881/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/33c1c792a54c194608449b5cd50d57bb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe7632b895b037f2afbb96dcda7b7689/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/11848d90e77bc9c07965f28cdfc454d2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/08e56e2b76b1b001b987b54eccede5b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/ca80dbfe62ed41b8fc00501348af40e7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9335ffd4465093e28fabe11443630a00/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1527325d3ff05c30bfd3766e33d513a5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/833ebc2dbd53d6b775a8c7338bee78c3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/77b97d01ca0a5bb0ee05e3671168c1f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/016151eca2b5f485116f77f504d5a369/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c855bb54615b3c43ecec7c874d7a636/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/217b92fcaec2dc185fe68364ef37e424/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/8f348d57c455f956e0bf766fe8bb02a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cc559a3476d683fad3ae337d4667c518/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2a3d5656154bbfe260d974a0993e0626/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1ee4db83d50e4c1359989075b8b51aab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/8e7c583ad86f4da604898463a9ba6f3a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/af9c5d26db0e7bf4ecb80b1df81ee43d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/12f8e13b7cdd97bb2768956129f7b3d4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/d11a04bfa11714f7ce92d579ebdf07f9/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/80c0b2bf165750437f762831ab1c7f42/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/c6048ac29353877a3abfd55e1fb47d3a/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:2:1-182:12
+INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:2:1-182:12
+INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:2:1-182:12
 	package
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:3:5-49
-		INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:6:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:7:22-77
 application
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:7:5-174:19
-MERGED from [com.android.support:support-compat:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/56e700574212c3a71e1fdcde544db0a6/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/56e700574212c3a71e1fdcde544db0a6/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/6149bdb3763b124abd65b04025a8f085/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/6149bdb3763b124abd65b04025a8f085/AndroidManifest.xml:22:5-23:19
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:9:5-176:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c855bb54615b3c43ecec7c874d7a636/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c855bb54615b3c43ecec7c874d7a636/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/217b92fcaec2dc185fe68364ef37e424/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/217b92fcaec2dc185fe68364ef37e424/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/56e700574212c3a71e1fdcde544db0a6/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c855bb54615b3c43ecec7c874d7a636/AndroidManifest.xml:22:18-91
 	android:label
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:13:9-41
 	android:largeHeap
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:8:9-33
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:10:9-33
 	android:icon
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:10:9-38
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:12:9-38
 activity#com.spearheadinc.flashcards.birkon.LicencingMainActivity
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:12:9-19:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:14:9-21:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:14:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:16:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:15:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:17:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:13:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:15:13-49
 intent-filter#category:name:android.intent.category.DEFAULT
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:16:13-18:29
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:18:13-20:29
 category#android.intent.category.DEFAULT
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:17:17-76
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:19:17-76
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:17:27-73
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:19:27-73
 activity#com.spearheadinc.flashcards.birkon.FlashCards
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:20:9-29:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:22:9-31:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:22:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:24:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:23:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:25:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:21:13-39
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:23:13-39
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:24:13-28:29
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:25:17-69
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:25:25-66
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:27:17-77
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:27:27-74
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:29:27-74
 activity#com.spearheadinc.flashcards.birkon.DeckView
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:30:9-37:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:32:9-39:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:32:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:34:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:33:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:35:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:31:13-37
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:33:13-37
 activity#com.spearheadinc.flashcards.birkon.CardDetails
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:38:9-45:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:40:9-47:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:40:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:42:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:41:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:43:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:39:13-40
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:41:13-40
 activity#com.spearheadinc.flashcards.birkon.Setting
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:46:9-53:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:48:9-55:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:48:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:50:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:49:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:51:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:47:13-36
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:49:13-36
 activity#com.spearheadinc.flashcards.birkon.Help
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:54:9-61:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:56:9-63:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:56:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:58:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:57:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:59:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:55:13-33
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:57:13-33
 activity#com.fadavis.pharmphlashfc.phone.Info
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:62:9-69:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:64:9-71:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:64:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:66:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:65:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:67:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:63:13-64
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:65:13-64
 activity#com.spearheadinc.flashcards.birkon.Search
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:70:9-77:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:72:9-79:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:72:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:74:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:73:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:75:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:71:13-35
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:73:13-35
 activity#com.spearheadinc.flashcards.birkon.Info
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:78:9-85:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:80:9-87:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:80:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:82:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:81:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:83:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:79:13-32
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:81:13-32
 activity#com.spearheadinc.flashcards.birkon.CardNotesDetail
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:86:9-93:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:88:9-95:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:88:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:90:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:89:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:91:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:87:13-43
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:89:13-43
 activity#com.spearheadinc.flashcards.birkon.CommentDetails
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:94:9-101:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:96:9-103:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:96:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:98:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:97:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:99:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:95:13-42
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:97:13-42
 activity#com.spearheadinc.flashcards.birkon.IndexSearch
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:102:9-109:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:104:9-111:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:104:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:106:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:105:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:107:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:103:13-40
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:105:13-40
 activity#com.spearheadinc.flashcards.birkon.VoiceNoteDetails
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:110:9-117:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:112:9-119:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:112:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:114:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:113:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:115:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:111:13-45
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:113:13-45
 activity#com.spearheadinc.flashcards.birkon.NewComments
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:118:9-125:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:120:9-127:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:120:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:122:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:121:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:123:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:119:13-40
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:121:13-40
 activity#com.spearheadinc.flashcards.birkon.NewVoiceNotes
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:126:9-133:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:128:9-135:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:128:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:130:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:129:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:131:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:127:13-42
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:129:13-42
 activity#com.spearheadinc.flashcards.birkon.MyComments
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:134:9-141:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:136:9-143:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:136:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:138:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:137:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:139:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:135:13-38
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:137:13-38
 activity#com.social.share.twitter.PrepareRequestTokenActivity
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:142:9-155:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:144:9-157:20
 	android:launchMode
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:144:13-44
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:146:13-44
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:143:13-80
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:145:13-80
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:callback+data:scheme:x-oauthflow-twitter
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:145:13-154:29
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:147:13-156:29
 action#android.intent.action.VIEW
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:146:17-69
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:148:17-69
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:146:25-66
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:148:25-66
 category#android.intent.category.BROWSABLE
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:149:17-78
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:151:17-78
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:149:27-75
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:151:27-75
 data
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:151:17-153:60
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:153:17-155:60
 	android:host
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:152:21-44
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:154:21-44
 	android:scheme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:153:21-57
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:155:21-57
 activity#com.spearheadinc.flashcards.birkon.Introduction
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:156:9-163:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:158:9-165:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:158:13-49
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:160:13-49
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:159:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:161:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:157:13-41
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:159:13-41
 activity#com.spearheadinc.flashcards.birkon.ListCardName
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:164:9-173:20
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:166:9-175:20
 	android:screenOrientation
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:167:14-50
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:169:14-50
 	android:label
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:166:13-66
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:168:13-66
 	android:theme
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:168:13-60
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:170:13-60
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:165:13-41
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:167:13-41
 uses-permission#android.permission.INTERNET
-ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:176:4-66
+ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:178:4-66
 	android:name
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml:176:21-63
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml:178:21-63
 uses-sdk
-INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
-INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:support-v4:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/4b20911caae0f12fbac77042bdb99bca/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/4b20911caae0f12fbac77042bdb99bca/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/02e57b590b70d59c19f081214f692abe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/02e57b590b70d59c19f081214f692abe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/201d597a8f66c957dab64ec9b8e83e80/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/201d597a8f66c957dab64ec9b8e83e80/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/b9675921d84e5ab496a91e07f2c5d85e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/b9675921d84e5ab496a91e07f2c5d85e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/cf377b90bba41c9c58ddd5f524c0b2c4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/cf377b90bba41c9c58ddd5f524c0b2c4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/d43e7da48f21ae25f70af1dd6804f1ee/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/d43e7da48f21ae25f70af1dd6804f1ee/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/647ed9be68a8be69a0a4b7336e5721a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/647ed9be68a8be69a0a4b7336e5721a5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/3e23abbc6294bf7f485884ae7d9251f6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/3e23abbc6294bf7f485884ae7d9251f6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/9a8141dba336e8cb67df68d6525d3ad7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/9a8141dba336e8cb67df68d6525d3ad7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/6d5532e654718971b6f582952e0809b1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/6d5532e654718971b6f582952e0809b1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/1e38c5411c23191c678a0758b5329f7c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/1e38c5411c23191c678a0758b5329f7c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/3c9a3d062b2328103a5fc9cf1e12b1fa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/3c9a3d062b2328103a5fc9cf1e12b1fa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/edebfd6d2404b559707a0b82c4563903/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/edebfd6d2404b559707a0b82c4563903/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/56e700574212c3a71e1fdcde544db0a6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/56e700574212c3a71e1fdcde544db0a6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/6149bdb3763b124abd65b04025a8f085/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/6149bdb3763b124abd65b04025a8f085/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/797682c84b65b7ad889260afb2d0dead/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/797682c84b65b7ad889260afb2d0dead/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/905db20f80ed97980a0e1dbd17f46107/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/905db20f80ed97980a0e1dbd17f46107/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/0d0d0df6509c2ae359f370a3fde6b65f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/0d0d0df6509c2ae359f370a3fde6b65f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/db0624ab47ae472bb0ae95f3a4a5f5a9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/db0624ab47ae472bb0ae95f3a4a5f5a9/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/cafea1e55a3d4dfbd3444989e2479dfb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/cafea1e55a3d4dfbd3444989e2479dfb/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/850db45493587560006c60d12f0aa8d3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /home/pappletech/.gradle/caches/transforms-2/files-2.1/850db45493587560006c60d12f0aa8d3/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/283ca7b2e85fff25ab51715d766963ba/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/283ca7b2e85fff25ab51715d766963ba/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/769b408295a583d8474fddd0b4a3b866/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/769b408295a583d8474fddd0b4a3b866/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/da68c76da709fa4a4d16f3cab699780c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/da68c76da709fa4a4d16f3cab699780c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/163ead4aae993711e59df88a7cbff27f/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /home/pappletech/.gradle/caches/transforms-2/files-2.1/163ead4aae993711e59df88a7cbff27f/AndroidManifest.xml:20:5-44
-INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
-INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
+INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
+INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:support-v4:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/751bdb9b622509d9c18a9806fe5229f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/751bdb9b622509d9c18a9806fe5229f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/5a7c4f1f75e030974adffe3d02dede32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/5a7c4f1f75e030974adffe3d02dede32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18ebdfb3c2482f9a2d375650e67ce881/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/18ebdfb3c2482f9a2d375650e67ce881/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/33c1c792a54c194608449b5cd50d57bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/33c1c792a54c194608449b5cd50d57bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe7632b895b037f2afbb96dcda7b7689/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/fe7632b895b037f2afbb96dcda7b7689/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/11848d90e77bc9c07965f28cdfc454d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/11848d90e77bc9c07965f28cdfc454d2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/08e56e2b76b1b001b987b54eccede5b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/08e56e2b76b1b001b987b54eccede5b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/ca80dbfe62ed41b8fc00501348af40e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/ca80dbfe62ed41b8fc00501348af40e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9335ffd4465093e28fabe11443630a00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/9335ffd4465093e28fabe11443630a00/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1527325d3ff05c30bfd3766e33d513a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1527325d3ff05c30bfd3766e33d513a5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/833ebc2dbd53d6b775a8c7338bee78c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/833ebc2dbd53d6b775a8c7338bee78c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/77b97d01ca0a5bb0ee05e3671168c1f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/77b97d01ca0a5bb0ee05e3671168c1f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/016151eca2b5f485116f77f504d5a369/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/016151eca2b5f485116f77f504d5a369/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c855bb54615b3c43ecec7c874d7a636/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2c855bb54615b3c43ecec7c874d7a636/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/217b92fcaec2dc185fe68364ef37e424/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/217b92fcaec2dc185fe68364ef37e424/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/8f348d57c455f956e0bf766fe8bb02a0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/8f348d57c455f956e0bf766fe8bb02a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cc559a3476d683fad3ae337d4667c518/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/cc559a3476d683fad3ae337d4667c518/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2a3d5656154bbfe260d974a0993e0626/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/2a3d5656154bbfe260d974a0993e0626/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1ee4db83d50e4c1359989075b8b51aab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/1ee4db83d50e4c1359989075b8b51aab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/8e7c583ad86f4da604898463a9ba6f3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/8e7c583ad86f4da604898463a9ba6f3a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/af9c5d26db0e7bf4ecb80b1df81ee43d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/af9c5d26db0e7bf4ecb80b1df81ee43d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/12f8e13b7cdd97bb2768956129f7b3d4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/12f8e13b7cdd97bb2768956129f7b3d4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/d11a04bfa11714f7ce92d579ebdf07f9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/d11a04bfa11714f7ce92d579ebdf07f9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/80c0b2bf165750437f762831ab1c7f42/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/80c0b2bf165750437f762831ab1c7f42/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/c6048ac29353877a3abfd55e1fb47d3a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/apple/.gradle/caches/transforms-2/files-2.1/c6048ac29353877a3abfd55e1fb47d3a/AndroidManifest.xml:20:5-44
+INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
+INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
-		ADDED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pappletech/Pictures/Logezyagency/Birkon_Android_1_1_Source/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
+		ADDED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/apple/Desktop/OfficeProject/Birkom/android-birkon/app/src/main/AndroidManifest.xml
