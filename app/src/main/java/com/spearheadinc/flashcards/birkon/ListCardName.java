@@ -105,7 +105,7 @@ public class ListCardName extends Activity {
        }
        else
        {
-    	   String[] colorArr = {"#DCF9BD", "#FDBFDA", "#BFF2EF", "#F5BFE9", "#FFBFC0", "#9B9ED4", "#ECD7C3", "#C0E5CB", "#EBE6CB"};
+//    	   String[] colorArr = {"#DCF9BD", "#FDBFDA", "#BFF2EF", "#F5BFE9", "#FFBFC0", "#9B9ED4", "#ECD7C3", "#C0E5CB", "#EBE6CB"};
        	 bookmaredCard=false;
        	 list = mFCDbHelper.getDeckCards(i);
        	       	  if(i>0 && i<8)

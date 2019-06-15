@@ -3,6 +3,8 @@ package com.spearheadinc.flashcards.birkon;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
+
+import android.view.KeyEvent;
 import android.webkit.JavascriptInterface;
 
 import com.spearheadinc.flashcards.birkon.ListCardName.CustomAdapter;
@@ -139,18 +141,18 @@ public class CardDetails extends Activity//  implements OnTouchListener
         profSelGastro = new int[listPreferenceName.size()];
         if(DeckView.getScreen() != null && !DeckView.getScreen().isdeleteAllProficiency)
         {
-	        myPrefs =  DeckView.getScreen().getSharedPreferences("StrAllCardPrefsGenericcd", MODE_WORLD_READABLE);
+	        myPrefs =  DeckView.getScreen().getSharedPreferences("StrAllCardPrefsGenericcd", MODE_PRIVATE);
 	        profSelAllCard = myPrefs.getInt("STRALLCARDGENERICcd", 0);
-	        myPrefs =  DeckView.getScreen().getSharedPreferences("StrBookMarkPrefsGenericcd", MODE_WORLD_READABLE);
+	        myPrefs =  DeckView.getScreen().getSharedPreferences("StrBookMarkPrefsGenericcd", MODE_PRIVATE);
 	        profSelBookMark = myPrefs.getInt("STRBOOKMARKGENERICcd", 0);
     		List<String> listPreferenceValue = DeckView.getScreen().getListCardsPreferenceValue();
 //    		int indx = listPreferenceName.indexOf(cardTypeSelected);
 	        for (int i = 0; i < listPreferenceName.size(); i++) {
-		        myPrefs =  DeckView.getScreen().getSharedPreferences(listPreferenceName.get(i), MODE_WORLD_READABLE);
+		        myPrefs =  DeckView.getScreen().getSharedPreferences(listPreferenceName.get(i), MODE_PRIVATE);
 		        profSelGastro[i] = myPrefs.getInt(listPreferenceValue.get(i), 0);
 			}
 	        
-	        myPrefs =  DeckView.getScreen().getSharedPreferences("StrbookMarkProfcardsStatusPrefsGenericcd", MODE_WORLD_READABLE);
+	        myPrefs =  DeckView.getScreen().getSharedPreferences("StrbookMarkProfcardsStatusPrefsGenericcd", MODE_PRIVATE);
 	        bookMarkProfcardStatus = myPrefs.getInt("BOOKMARKPROFCARDSTATUScd", 0);
         }
         else
@@ -588,7 +590,7 @@ public class CardDetails extends Activity//  implements OnTouchListener
 //	String mFlashCardId;
 
     private static final FrameLayout.LayoutParams ZOOM_PARAMS =  new FrameLayout.LayoutParams(
-    						ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.BOTTOM | Gravity.RIGHT);
+    						ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.BOTTOM | Gravity.RIGHT);
     
     
     private void recalculateProficiency(int i)
@@ -1201,9 +1203,16 @@ public class CardDetails extends Activity//  implements OnTouchListener
     	super.onStop();
     	
 		DeckView.getScreen().isdeleteAllProficiency = false;
-	} 
-    
-    private void setScreenData()
+	}
+
+	@Override
+	public void onBackPressed() {
+		super.onBackPressed();
+		this.finish();
+
+	}
+
+	private void setScreenData()
     {
     	Button tv = (Button) findViewById(R.id.carddetail_back_but);
         tv.setOnClickListener(new OnClickListener() 
@@ -1220,7 +1229,7 @@ public class CardDetails extends Activity//  implements OnTouchListener
         		DeckView.getScreen().setStrBookMark(bookMarkProfcardStatus, profSelBookMark);
         		DeckView.getScreen().storeDataInPreferences(profSelBookMark, "StrBookMarkPrefsGenericcd", "STRBOOKMARKGENERICcd");
         		DeckView.getScreen().storeDataInPreferences(bookMarkProfcardStatus, "StrbookMarkProfcardsStatusPrefsGenericcd", "BOOKMARKPROFCARDSTATUScd");
-				finish();
+                CardDetails.this.finish();
 			}
 		});
         Button tvfront = (Button) findViewById(R.id.carddetail_front_back);
@@ -1239,7 +1248,8 @@ public class CardDetails extends Activity//  implements OnTouchListener
         		DeckView.getScreen().setStrBookMark(bookMarkProfcardStatus, profSelBookMark);
         		DeckView.getScreen().storeDataInPreferences(profSelBookMark, "StrBookMarkPrefsGenericcd", "STRBOOKMARKGENERICcd");
         		DeckView.getScreen().storeDataInPreferences(bookMarkProfcardStatus, "StrbookMarkProfcardsStatusPrefsGenericcd", "BOOKMARKPROFCARDSTATUScd");
-           	   finish();
+           	   CardDetails.this.finish();
+
         		
 			}
 		});
@@ -1808,6 +1818,17 @@ public class CardDetails extends Activity//  implements OnTouchListener
 		    }
 	   	
 	    }
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event)
+	{
+		if ((keyCode == KeyEvent.KEYCODE_BACK))
+		{
+			finish();
+			overridePendingTransition(R.anim.hold, R.anim.push_up_out);
+			return true;
+		}
+		return super.onKeyDown(keyCode, event);
+	}
 	
 	
 

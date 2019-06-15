@@ -270,7 +270,7 @@ public class DeckView extends Activity {
             int totalCards = mFCDbHelper.getDeksTotalNumOfCards(i + "");
             mFCDbHelper.close();
             myPrefs =  DeckView.this.getSharedPreferences(listDeckPreferenceName.get(i), MODE_PRIVATE);
-            String prefVal = myPrefs.getString(listDeckPreferenceValue.get(i), "0.00%");
+            String prefVal = myPrefs.getString(listDeckPreferenceValue.get(i), "0%");
 
 //          LinearLayout detailRow =  CreateRowView(totalCards, strArr[1], arrayDeckIcon[i], strArr[3], prefVal, total, i);
           LinearLayout detailRow =  CreateRowView(totalCards, cursorDeck.getString(cursorDeck.getColumnIndexOrThrow(FCDBHelper.DECKTITLE)), 
@@ -653,7 +653,7 @@ public class DeckView extends Activity {
 		Log.e("setStrBookMark", strBookMark + " : " + total);
 		double dbl = (double)strBookMark/total;
     	populateProficiencyValue(dbl, profvalueBookMark, "StrBookMarkPrefs", "STRBOOKMARK");
-		SharedPreferences myPrefs = DeckView.this.getSharedPreferences("TotalbookMarkedProfPrefs", MODE_WORLD_READABLE);
+		SharedPreferences myPrefs = DeckView.this.getSharedPreferences("TotalbookMarkedProfPrefs", MODE_PRIVATE);
 	    SharedPreferences.Editor prefsEditor = myPrefs.edit();
 	    prefsEditor.putInt("BOOKMARKEDCARDS", total);		            
 	    prefsEditor.commit();
@@ -694,7 +694,7 @@ public class DeckView extends Activity {
 	
     protected void storeDataInPreferences(int value, String sharedPrefName, String sharedPrefParam) 
 	{
-		SharedPreferences myPrefs = DeckView.this.getSharedPreferences(sharedPrefName, MODE_WORLD_READABLE);
+		SharedPreferences myPrefs = DeckView.this.getSharedPreferences(sharedPrefName, MODE_PRIVATE);
 	    SharedPreferences.Editor prefsEditor = myPrefs.edit();
 	    prefsEditor.putInt(sharedPrefParam, value);
 	    prefsEditor.commit();
@@ -703,7 +703,7 @@ public class DeckView extends Activity {
     
     protected void storeDataInPreferences(int value, int i/*, String sharedPrefParam*/)  
 	{
-		SharedPreferences myPrefs = DeckView.this.getSharedPreferences(listCardsPreferenceName.get(i), MODE_WORLD_READABLE);
+		SharedPreferences myPrefs = DeckView.this.getSharedPreferences(listCardsPreferenceName.get(i), MODE_PRIVATE);
 	    SharedPreferences.Editor prefsEditor = myPrefs.edit();
 	    prefsEditor.putInt(listCardsPreferenceValue.get(i), value);
 	    System.out.println("storeDataInPreferencesvalue  =  " + i + " , " + value + " , " + listCardsPreferenceName.get(i)+ " , " +listCardsPreferenceValue.get(i));

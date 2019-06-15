@@ -40,30 +40,6 @@ public class FCDBHelper extends SQLiteOpenHelper
         this.myContext = context;
     }	
 
-  /**
-     * Creates a empty database on the system and rewrites it with your own database.
-     * */
-//    public void createDataBase() throws IOException{
-//
-//    	boolean dbExist = checkDataBase();
-//
-//    	if(dbExist)
-//    	{
-//    		//do nothing - database already exist
-//    	}
-//    	else
-//    	{
-//    		//By calling this method an empty database will be created into the default system path
-//               //of your application so we are gonna be able to overwrite that database with our database.
-//        	this.getReadableDatabase();
-//        	try
-//        	{
-//    			copyDataBase();
-//    		} catch (IOException e) {
-//        		throw new Error("Error copying database");
-//        	}
-//    	}
-//    }
     public void setRandomized(boolean b)
     {
     	isRandomized = b;
@@ -74,37 +50,37 @@ public class FCDBHelper extends SQLiteOpenHelper
     	return isRandomized;
     }
 
-    public List<String> selectCardStatus(String table, String[] strArr)
-    {
-       List<String> list = new ArrayList<String>();
-//       this.sqlDB = openHelper.getWritableDatabase();
-
-       Cursor cursor = myDataBase.query(true, table, strArr,
-    		   null, null, null, null, null, null);
-       if (cursor.moveToFirst())
-       {
-     	  do
-     	  {
-     		  for(int i = 0; i < strArr.length; i ++)
-     		  {
-	     		  String str = cursor.getString(i);
-	    		  list.add(str);
-     		  }
-//     		  String str1 = cursor.getString(1);
-//    		  list.add(str1);
-     	  }
-     	  while (cursor.moveToNext());
-       }
-       if (cursor != null && !cursor.isClosed())
-       {
-     	  cursor.close();
-       }
-       for(int i = 0; i < list.size(); i ++)
-	   {
-		   Log.e("" + table, list.get(i)+"");
-	   }
-       return list;
-    }
+//    public List<String> selectCardStatus(String table, String[] strArr)
+//    {
+//       List<String> list = new ArrayList<String>();
+////       this.sqlDB = openHelper.getWritableDatabase();
+//
+//       Cursor cursor = myDataBase.query(true, table, strArr,
+//    		   null, null, null, null, null, null);
+//       if (cursor.moveToFirst())
+//       {
+//     	  do
+//     	  {
+//     		  for(int i = 0; i < strArr.length; i ++)
+//     		  {
+//	     		  String str = cursor.getString(i);
+//	    		  list.add(str);
+//     		  }
+////     		  String str1 = cursor.getString(1);
+////    		  list.add(str1);
+//     	  }
+//     	  while (cursor.moveToNext());
+//       }
+//       if (cursor != null && !cursor.isClosed())
+//       {
+//     	  cursor.close();
+//       }
+//       for(int i = 0; i < list.size(); i ++)
+//	   {
+//		   Log.e("" + table, list.get(i)+"");
+//	   }
+//       return list;
+//    }
 
     
     
@@ -127,7 +103,7 @@ public class FCDBHelper extends SQLiteOpenHelper
     	}
     	return checkDB != null ? true : false;
     }
-    
+
     /**
        * Creates a empty database on the system and rewrites it with your own database.
        * */
@@ -192,27 +168,7 @@ public class FCDBHelper extends SQLiteOpenHelper
   			is.close();
   		}
   	} 
- 
-    /**
-     * Copies your database from your local assets-folder to the just created empty database in the
-     * system folder, from where it can be accessed and handled.
-     * This is done by transfering bytestream.
-     * */
-//    private void copyDataBase() throws IOException
-//    {
-//    	InputStream myInput = myContext.getAssets().open(DB_NAME);
-//    	String outFileName = DB_PATH + DB_NAME;
-//    	OutputStream myOutput = new FileOutputStream(outFileName);
-////    	int i = myInput.available();
-//    	byte[] buffer = new byte[myInput.available() + 1];
-//    	int length;
-//    	while ((length = myInput.read(buffer))>0){
-//    		myOutput.write(buffer, 0, length);
-//    	}
-//    	myOutput.flush();
-//    	myOutput.close();
-//    	myInput.close();
-//    }
+
  
     public void openDataBase() throws SQLException{
         String myPath = DB_PATH + DB_NAME;
@@ -236,7 +192,13 @@ public class FCDBHelper extends SQLiteOpenHelper
 
 	}
 
-        // Add your public helper methods to access and get content from the database.
+	@Override
+	public void onConfigure(SQLiteDatabase db) {
+		super.onConfigure(db);
+		db.disableWriteAheadLogging();
+
+	}
+	// Add your public helper methods to access and get content from the database.
        // You could return cursors by doing "return myDataBase.query(....)" so it'd be easy
        // to you to create adapters for your views.
 	
@@ -282,103 +244,105 @@ public class FCDBHelper extends SQLiteOpenHelper
 //		   }
 	       return list.size();
 	}
-	
-	@SuppressWarnings("unchecked")
-	public int getTotalNumOfDeks()
-	{
-	       List list = new ArrayList();
-//	       this.sqlDB = openHelper.getWritableDatabase();
-	       
-	       Cursor cursor = myDataBase.query(true, "m_FlashCardDecks", new String[]{"pk_FlashCardDeckId"}, 
-	    		   null, null, null, null, null, null); 
-	       int i=0;
-	       if (cursor.moveToFirst())
-	       {
-	     	  do 
-	     	  {	
-	     		  int str = cursor.getInt(0);
-	    		  list.add(str);
-				  Log.e("getTotalNumOfDeks " + i, str+"");
-	     		  i ++;
-	     	  } 
-	     	  while (cursor.moveToNext());
-	       }
-	       if (cursor != null && !cursor.isClosed())
-	       {
-	     	  cursor.close();
-	       }
-//	       for(int i = 0; i < list.size(); i ++)
-//		   {
-//			   Log.e("" + table, list.get(i)+"");
-//		   }
-	       return list.size();
-	}
-	
-	public List<String> getDeksName_Color()
-	{
-	       List<String> list = new ArrayList<String>();
-//	       this.sqlDB = openHelper.getWritableDatabase();
-	       
-	       Cursor cursor = myDataBase.query(true, "m_FlashCardDecks", new String[]{"DeckTitle", "DeckColor", "pk_FlashCardDeckId","DeckImage"}, 
-	    		   null, null, null, null, "pk_FlashCardDeckId ASC", null); 
-	       int i=0;
-	       if (cursor.moveToFirst())
-	       {
-	     	  do 
-	     	  {	
-	     		  String str = cursor.getString(0);
-	    		  list.add(str);
-				  Log.e("getDeksName_Color DeckTitle " + i, str+"");
-	     		  str = cursor.getString(1);
-	    		  list.add(str);
-				  Log.e("getDeksName_Color DeckColor " + i, str+"");
-	     		  i ++;
-	     	  } 
-	     	  while (cursor.moveToNext());
-	       }
-	       if (cursor != null && !cursor.isClosed())
-	       {
-	     	  cursor.close();
-	       }
-//	       for(int i = 0; i < list.size(); i ++)
-//		   {
-//			   Log.e("" + table, list.get(i)+"");
-//		   }
-	       return list;
-	}
-	
-	public List<String> getSoundFileNme()
-	{
-       List<String> list = new ArrayList<String>();
-//	       this.sqlDB = openHelper.getWritableDatabase();
-       
-       Cursor cursor = myDataBase.query(true, "m_FlashCardInternalDetails", new String[]{"fk_FlashCardId", "TitleData"}, 
-    		   null, null, null, null, "fk_FlashCardId ASC", null); 
-       int i=0;
-       if (cursor.moveToFirst())
-       {
-     	  do 
-     	  {	
-     		  String str = cursor.getString(0);
+
+
+//
+//	@SuppressWarnings("unchecked")
+//	public int getTotalNumOfDeks()
+//	{
+//	       List list = new ArrayList();
+////	       this.sqlDB = openHelper.getWritableDatabase();
+//
+//	       Cursor cursor = myDataBase.query(true, "m_FlashCardDecks", new String[]{"pk_FlashCardDeckId"},
+//	    		   null, null, null, null, null, null);
+//	       int i=0;
+//	       if (cursor.moveToFirst())
+//	       {
+//	     	  do
+//	     	  {
+//	     		  int str = cursor.getInt(0);
 //	    		  list.add(str);
-			  Log.e("getSoundFileNme fk_FlashCardId " + i, str+"");
-     		  str = cursor.getString(1);
-    		  list.add(str);
-			  Log.e("getSoundFileNme TitleData " + i, str+"");
-     		  i ++;
-     	  } 
-     	  while (cursor.moveToNext());
-       }
-       if (cursor != null && !cursor.isClosed())
-       {
-     	  cursor.close();
-       }
-       for(int j = 0; j < list.size(); j ++)
-	   {
-		   Log.e("+ table" , list.get(j)+"");
-	   }
-       return list;
-	}
+//				  Log.e("getTotalNumOfDeks " + i, str+"");
+//	     		  i ++;
+//	     	  }
+//	     	  while (cursor.moveToNext());
+//	       }
+//	       if (cursor != null && !cursor.isClosed())
+//	       {
+//	     	  cursor.close();
+//	       }
+////	       for(int i = 0; i < list.size(); i ++)
+////		   {
+////			   Log.e("" + table, list.get(i)+"");
+////		   }
+//	       return list.size();
+//	}
+	
+//	public List<String> getDeksName_Color()
+//	{
+//	       List<String> list = new ArrayList<String>();
+////	       this.sqlDB = openHelper.getWritableDatabase();
+//
+//	       Cursor cursor = myDataBase.query(true, "m_FlashCardDecks", new String[]{"DeckTitle", "DeckColor", "pk_FlashCardDeckId","DeckImage"},
+//	    		   null, null, null, null, "pk_FlashCardDeckId ASC", null);
+//	       int i=0;
+//	       if (cursor.moveToFirst())
+//	       {
+//	     	  do
+//	     	  {
+//	     		  String str = cursor.getString(0);
+//	    		  list.add(str);
+//				  Log.e("getDeksName_Color DeckTitle " + i, str+"");
+//	     		  str = cursor.getString(1);
+//	    		  list.add(str);
+//				  Log.e("getDeksName_Color DeckColor " + i, str+"");
+//	     		  i ++;
+//	     	  }
+//	     	  while (cursor.moveToNext());
+//	       }
+//	       if (cursor != null && !cursor.isClosed())
+//	       {
+//	     	  cursor.close();
+//	       }
+////	       for(int i = 0; i < list.size(); i ++)
+////		   {
+////			   Log.e("" + table, list.get(i)+"");
+////		   }
+//	       return list;
+//	}
+	
+//	public List<String> getSoundFileNme()
+//	{
+//       List<String> list = new ArrayList<String>();
+////	       this.sqlDB = openHelper.getWritableDatabase();
+//
+//       Cursor cursor = myDataBase.query(true, "m_FlashCardInternalDetails", new String[]{"fk_FlashCardId", "TitleData"},
+//    		   null, null, null, null, "fk_FlashCardId ASC", null);
+//       int i=0;
+//       if (cursor.moveToFirst())
+//       {
+//     	  do
+//     	  {
+//     		  String str = cursor.getString(0);
+////	    		  list.add(str);
+//			  Log.e("getSoundFileNme fk_FlashCardId " + i, str+"");
+//     		  str = cursor.getString(1);
+//    		  list.add(str);
+//			  Log.e("getSoundFileNme TitleData " + i, str+"");
+//     		  i ++;
+//     	  }
+//     	  while (cursor.moveToNext());
+//       }
+//       if (cursor != null && !cursor.isClosed())
+//       {
+//     	  cursor.close();
+//       }
+//       for(int j = 0; j < list.size(); j ++)
+//	   {
+//		   Log.e("+ table" , list.get(j)+"");
+//	   }
+//       return list;
+//	}
 	
 	String[] lkp_TypesArrFC = new String[] {"lkp_Types", "pk_TypeId", "TypeValue"}; 
 	String[] m_FlashCardDecksArr = new String[] {"m_FlashCardDecks", "pk_FlashCardDeckId", "DeckTitle", "DeckImage",
@@ -433,16 +397,16 @@ public class FCDBHelper extends SQLiteOpenHelper
 //	      return i;
 //	   }
 	
-    public int UpdateResetCardValues(String bmc, String known, String id)
-    {
-    	SQLiteDatabase db=myDataBase;
-    	ContentValues cv=new ContentValues();
-    	cv.put("ISBookMarked", bmc);
-    	cv.put("ISKnown", known);
-    	int i = db.update("m_FlashCard", cv, "pk_FlashCardId"+"=?", new String []{id});
-    	return i;
-    }
-    
+//    public int UpdateResetCardValues(String bmc, String known, String id)
+//    {
+//    	SQLiteDatabase db=myDataBase;
+//    	ContentValues cv=new ContentValues();
+//    	cv.put("ISBookMarked", bmc);
+//    	cv.put("ISKnown", known);
+//    	int i = db.update("m_FlashCard", cv, "pk_FlashCardId"+"=?", new String []{id});
+//    	return i;
+//    }
+//
     public int UpdateKnownCardValues(String known, String id)
     {
     	SQLiteDatabase db=myDataBase;
@@ -482,37 +446,37 @@ public class FCDBHelper extends SQLiteOpenHelper
 //      this.sqlDB.delete(TABLE_NAME, null, null);
 //   }
 
-   public void deleteAll(String known) 
-   {
-      this.myDataBase.delete("m_FlashCard", "iKnowCard= ?", new String[]{known});
-   }
-	   
-//   public List<FlashCardDetailBean> selectAllCardStatus(String cardId) 
+//   public void deleteAll(String known)
 //   {
-//      List<FlashCardDetailBean> list = new ArrayList<FlashCardDetailBean>();
-//      Cursor cursor =myDataBase.query(true, "m_FlashCard", new String[]{"ISBookMarked", "ISKnown", "pk_FlashCardId"}, 
-//    		  						"cardID= ?", new String[]{cardId}, null, null, null, null); 
-//      if (cursor.moveToFirst())
-//      {
-//    	  do 
-//    	  {	 
-//    		  FlashCardDetailBean artBean = new FlashCardDetailBean();
-////    		  artBean.setbookmarkedCard(cursor.getString(0));
-////    		  
-////    		  artBean.setiKnowCard(cursor.getString(1));
-////    		  artBean.setcardID(cursor.getString(2));
-//        	 
-//    		  list.add(artBean);
-//    	  } 
-//    	  while (cursor.moveToNext());
-//      }
-//      if (cursor != null && !cursor.isClosed())
-//      {
-//    	  cursor.close();
-//      }
-//      return list;
+//      this.myDataBase.delete("m_FlashCard", "iKnowCard= ?", new String[]{known});
 //   }
-	
+//
+////   public List<FlashCardDetailBean> selectAllCardStatus(String cardId)
+////   {
+////      List<FlashCardDetailBean> list = new ArrayList<FlashCardDetailBean>();
+////      Cursor cursor =myDataBase.query(true, "m_FlashCard", new String[]{"ISBookMarked", "ISKnown", "pk_FlashCardId"},
+////    		  						"cardID= ?", new String[]{cardId}, null, null, null, null);
+////      if (cursor.moveToFirst())
+////      {
+////    	  do
+////    	  {
+////    		  FlashCardDetailBean artBean = new FlashCardDetailBean();
+//////    		  artBean.setbookmarkedCard(cursor.getString(0));
+//////
+//////    		  artBean.setiKnowCard(cursor.getString(1));
+//////    		  artBean.setcardID(cursor.getString(2));
+////
+////    		  list.add(artBean);
+////    	  }
+////    	  while (cursor.moveToNext());
+////      }
+////      if (cursor != null && !cursor.isClosed())
+////      {
+////    	  cursor.close();
+////      }
+////      return list;
+////   }
+//
    public int getKnownBookMarkedCardStatus() 
    {
 	   int i = 0;
@@ -534,26 +498,26 @@ public class FCDBHelper extends SQLiteOpenHelper
       return i;
    }
    
-   public List<String> getAllBookMarkedCardStatus() 
-   {
-	   List<String> list = new ArrayList<String>();
-	   Cursor cursor = myDataBase.query(true, "m_FlashCard", new String[]{"ISBookMarked", "ISKnown", "pk_FlashCardId"}, 
-    		  						"ISBookMarked=1", null, null, null, "pk_FlashCardId ASC", null);
-	   if (cursor.moveToFirst())
-	   {
-		   do 
-		   {	 
-			   list.add(cursor.getString(2));
-			   Log.e("DB  getAllBookMarkedCardStatus  ", "" + cursor.getString(2));
-		   } 
-		   while (cursor.moveToNext());
-	   }
-	   if (cursor != null && !cursor.isClosed())
-	   {
-		   cursor.close();
-	   }
-	   return list;
-   }
+//   public List<String> getAllBookMarkedCardStatus()
+//   {
+//	   List<String> list = new ArrayList<String>();
+//	   Cursor cursor = myDataBase.query(true, "m_FlashCard", new String[]{"ISBookMarked", "ISKnown", "pk_FlashCardId"},
+//    		  						"ISBookMarked=1", null, null, null, "pk_FlashCardId ASC", null);
+//	   if (cursor.moveToFirst())
+//	   {
+//		   do
+//		   {
+//			   list.add(cursor.getString(2));
+//			   Log.e("DB  getAllBookMarkedCardStatus  ", "" + cursor.getString(2));
+//		   }
+//		   while (cursor.moveToNext());
+//	   }
+//	   if (cursor != null && !cursor.isClosed())
+//	   {
+//		   cursor.close();
+//	   }
+//	   return list;
+//   }
 	   
    public List<String> getBookMarkedCardStatus() 
    {

@@ -35,9 +35,9 @@ public class CardNotesDetail  extends Activity {
 	}
     
     @Override
-    public boolean onKeyDown(int keyCode, KeyEvent event) 
+    public boolean onKeyDown(int keyCode, KeyEvent event)
     {
-        if ((keyCode == KeyEvent.KEYCODE_BACK)) 
+        if ((keyCode == KeyEvent.KEYCODE_BACK))
         {
 			finish();
 			overridePendingTransition(R.anim.hold, R.anim.push_up_out);
@@ -67,8 +67,9 @@ public class CardNotesDetail  extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				finish();
 				overridePendingTransition(R.anim.hold, R.anim.push_up_out);
+				finish();
+
 			}
 		});
 

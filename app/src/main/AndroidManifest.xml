@@ -3,8 +3,6 @@
     package="com.spearheadinc.flashcards.birkon"
     android:versionCode="2"
     android:versionName="1.1" >
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:largeHeap="true"
